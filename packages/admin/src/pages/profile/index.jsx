@@ -218,7 +218,7 @@ export default function () {
                     </div>
                   )}
                   {!window.ALLOW_SOCIALS &&
-                    ['qq', 'weibo', 'github', 'twitter', 'facebook'].map(
+                    ['github'].map(
                       (social) => (
                         <div
                           key={social}
